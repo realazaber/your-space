@@ -5,17 +5,11 @@
 /home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/backend.runtimeconfig.json
 /home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/backend.dll
 /home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/backend.pdb
-/home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
-/home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/Microsoft.OpenApi.dll
-/home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
-/home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
-/home/swagoverlord/Desktop/your-space/backend/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.csproj.AssemblyReference.cache
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.GeneratedMSBuildEditorConfig.editorconfig
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.AssemblyInfoInputs.cache
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.AssemblyInfo.cs
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.csproj.CoreCompileInputs.cache
-/home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.MvcApplicationPartsAssemblyInfo.cs
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.MvcApplicationPartsAssemblyInfo.cache
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/staticwebassets/msbuild.backend.Microsoft.AspNetCore.StaticWebAssets.props
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/staticwebassets/msbuild.build.backend.props
@@ -25,7 +19,6 @@
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/staticwebassets.build.json
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/staticwebassets.development.json
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/scopedcss/bundle/backend.styles.css
-/home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.csproj.CopyComplete
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.dll
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/refint/backend.dll
 /home/swagoverlord/Desktop/your-space/backend/obj/Debug/net7.0/backend.pdb

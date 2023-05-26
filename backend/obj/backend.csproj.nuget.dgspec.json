@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/swagoverlord/Desktop/your-space/backend/backend.csproj": {}
+    "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {}
   },
   "projects": {
-    "/home/swagoverlord/Desktop/your-space/backend/backend.csproj": {
+    "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/swagoverlord/Desktop/your-space/backend/backend.csproj",
+        "projectUniqueName": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "/home/swagoverlord/Desktop/your-space/backend/backend.csproj",
-        "packagesPath": "/home/swagoverlord/.nuget/packages/",
-        "outputPath": "/home/swagoverlord/Desktop/your-space/backend/obj/",
+        "projectPath": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\coolp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/swagoverlord/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\coolp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/home/swagoverlord/.dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -69,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/swagoverlord/.dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

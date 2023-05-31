@@ -1,6 +1,7 @@
 using backend.Data;
 using backend.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace backend.Controllers
 {
@@ -16,16 +17,12 @@ namespace backend.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<User>> GetUsers() 
+        public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            return dbContext.Users.ToList();
+            return await dbContext.Users.ToListAsync();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<User> GetUser(int id) 
-        {
-            return dbContext.Users.Find(id);
-            
-        }
+        public async Task<ActionResult<User>> GetUser(int id) => await dbContext.Users.FindAsync(id);
     }
 }

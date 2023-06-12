@@ -125,3 +125,8 @@ C:\Users\coolp\Desktop\your-space\backend\obj\Debug\net7.0\refint\backend.dll
 C:\Users\coolp\Desktop\your-space\backend\obj\Debug\net7.0\backend.pdb
 C:\Users\coolp\Desktop\your-space\backend\obj\Debug\net7.0\backend.genruntimeconfig.cache
 C:\Users\coolp\Desktop\your-space\backend\obj\Debug\net7.0\ref\backend.dll
+C:\Users\coolp\Desktop\your-space\backend\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\coolp\Desktop\your-space\backend\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\coolp\Desktop\your-space\backend\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\coolp\Desktop\your-space\backend\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\coolp\Desktop\your-space\backend\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

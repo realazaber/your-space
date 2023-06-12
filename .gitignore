@@ -475,3 +475,17 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+backend/obj/project.nuget.cache
+backend/obj/project.assets.json
+backend/obj/Debug/net7.0/refint/backend.dll
+backend/obj/Debug/net7.0/ref/backend.dll
+backend/obj/Debug/net7.0/backend.pdb
+backend/obj/Debug/net7.0/backend.GeneratedMSBuildEditorConfig.editorconfig
+backend/obj/Debug/net7.0/backend.dll
+backend/obj/Debug/net7.0/backend.csproj.FileListAbsolute.txt
+backend/obj/Debug/net7.0/backend.csproj.CoreCompileInputs.cache
+backend/obj/Debug/net7.0/backend.assets.cache
+backend/obj/backend.csproj.nuget.dgspec.json
+backend/bin/Debug/net7.0/backend.pdb
+backend/bin/Debug/net7.0/backend.dll
+backend/bin/Debug/net7.0/backend.deps.json

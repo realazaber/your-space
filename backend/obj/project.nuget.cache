@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VXeRPaZTRbV/J5rBFwbfRFnP+ENcVB3xD21Fqn0tTbbR25+ejCx2lkTP52oR65Mx4RNpCi99qojjU//tpByvRA==",
+  "dgSpecHash": "ZoLZwI+0OdgWRvZygI3Jr3sD9FgXFg/CE6sIdf77Nrtbe8Vruw4glsNcVP1TmFg3bolzsIrDQMdG07a2JaMTLA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
+  "projectFilePath": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coolp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\coolp\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {}
+    "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {
+    "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "c:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
+        "projectPath": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\coolp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\coolp\\Desktop\\your-space\\backend\\obj\\",
+        "outputPath": "C:\\Users\\coolp\\Desktop\\your-space\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,9 @@
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

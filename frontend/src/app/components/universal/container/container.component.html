@@ -1,0 +1,20 @@
+<div
+  [ngClass]="{
+    'bg-pri': bgColour === 'pri',
+    'bg-slate-100': bgColour === 'sec',
+    'bg-white': bgColour === 'none'
+  }"
+  [ngStyle]="{ 'min-height': minHeight }"
+  class="mx-auto flex w-[100vw] items-center justify-center"
+>
+  <div
+    [ngClass]="{
+      'flex-col': direction === 'col',
+      'flex-row': direction === 'row',
+
+    }"
+    class="flex w-4/5 items-center justify-center"
+  >
+    <ng-content></ng-content>
+  </div>
+</div>

@@ -1,1 +1,15 @@
-<p>footer works!</p>
+<footer class="flex w-full flex-row justify-between bg-sec p-3 text-white">
+  <div class="flex flex-col gap-3">
+    <a routerLink="/home"> <h1 class="text-3xl font-bold">Your Space</h1></a>
+    <span class="text-lg">Created by Azaber</span>
+  </div>
+  <div class="flex flex-col gap-3 text-right">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/about">About</a>
+    <a routerLink="/register">Register</a>
+  </div>
+</footer>
+
+<div class="bg-pri p-3 text-center text-white">
+  <a href="https://azaber.com/" target="_blank">Azaber {{ currentYear }}</a>
+</div>

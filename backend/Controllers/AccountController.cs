@@ -26,7 +26,7 @@ namespace backend.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDTO>> Register(RegisterDTO registerDTO)
         {
-            if (await UserExists(registerDTO.UserName, registerDTO.Email))
+            if (await UserExists(registerDTO.Email))
             {
                 return BadRequest("User already exists.");
             }
@@ -35,8 +35,11 @@ namespace backend.Controllers
 
             var user = new User
             {
-                UserName = registerDTO.UserName.ToLower(),
                 Email = registerDTO.Email.ToLower(),
+                UserName = registerDTO.UserName.ToLower(),
+                firstName = registerDTO.firstName,
+                lastName = registerDTO.lastName,
+                DOB = registerDTO.DOB,
                 PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDTO.Password)),
                 PasswordSalt = hmac.Key
             };
@@ -47,6 +50,10 @@ namespace backend.Controllers
             return new UserDTO
             {
                 Email = user.Email,
+                Username = user.UserName,
+                firstName = user.firstName,
+                lastName = user.lastName,
+                DOB = user.DOB,
                 Token = _tokenService.GenerateToken(user)
             };
         }
@@ -76,14 +83,18 @@ namespace backend.Controllers
             return new UserDTO
             {
                 Email = user.Email,
+                Username = user.UserName,
+                firstName = user.firstName,
+                lastName = user.lastName,
+                DOB = user.DOB,
                 Token = _tokenService.GenerateToken(user)
             };
         }
 
-        private async Task<bool> UserExists(string userName, string email)
+        private async Task<bool> UserExists(string email)
         {
             var user = await _context.Users.FirstOrDefaultAsync(user =>
-                user.UserName.ToLower() == userName.ToLower() || user.Email.ToLower() == email.ToLower());
+                 user.Email.ToLower() == email.ToLower());
 
             return user != null;
         }

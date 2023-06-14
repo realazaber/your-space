@@ -8,6 +8,12 @@ namespace backend.Entities
 
         public string UserName { get; set; }
 
+        public string firstName { get; set; }
+
+        public string lastName { get; set; }
+
+        public DateTime DOB { get; set; }
+
         public string Email { get; set; }
 
         public byte[] PasswordHash { get; set; }

@@ -8,6 +8,13 @@ module.exports = {
         sec: "#01579B",
         tpri: "#a4a4a4",
       },
+      screens: {
+        mobile: "550px",
+
+        tablet: "700px",
+
+        desktop: "1100px",
+      },
     },
   },
   plugins: [],

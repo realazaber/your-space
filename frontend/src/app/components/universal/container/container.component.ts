@@ -14,4 +14,5 @@ export class ContainerComponent {
   @Input() direction: Direction = 'col';
   @Input() bgColour: bgCol = 'none';
   @Input() minHeight: string = '50vh';
+  @Input() mobileReverse: boolean = false;
 }

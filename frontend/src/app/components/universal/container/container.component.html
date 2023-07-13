@@ -9,8 +9,9 @@
 >
   <div
     [ngClass]="{
-      'flex-col': direction === 'col',
-      'flex-row': direction === 'row',
+      'flex-col mobile:flex-col': direction === 'col' && !mobileReverse,
+      'flex-row mobile:flex-row': direction === 'row' && !mobileReverse,
+      'flex-col-reverse mobile:flex-col': direction === 'col' && mobileReverse,
 
     }"
     class="flex w-4/5 items-center justify-center"

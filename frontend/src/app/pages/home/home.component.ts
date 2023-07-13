@@ -1,29 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { UsersService } from 'src/app/services/users.service';
-import { IUser } from 'src/app/types/IUser';
-import { Observable } from 'rxjs';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
 })
-export class HomeComponent implements OnInit {
-  users: IUser[] = [];
+export class HomeComponent {
+  @ViewChild('briefAboutSection') briefAboutSection!: ElementRef;
 
-  constructor(private userService: UsersService) {}
-
-  getUsers(): Observable<IUser[]> {
-    return this.userService.getUsers();
-  }
-
-  ngOnInit(): void {
-    this.getUsers().subscribe({
-      next: (users) => {
-        this.users = users;
-      },
-      error: (error) => {
-        console.log('Error: ' + error);
-      },
-    });
+  scrollToSection(sectionId: string): void {
+    if (sectionId === 'brief-about') {
+      this.briefAboutSection.nativeElement.scrollIntoView({
+        behavior: 'smooth',
+      });
+    }
   }
 }

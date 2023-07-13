@@ -1,15 +1,38 @@
-<div class="flex flex-col gap-3">
-  <mat-toolbar color="accent">Login</mat-toolbar>
-  <mat-form-field class="mb-[-1.25rem]">
-    <mat-label>Email</mat-label>
-    <input matInput />
-  </mat-form-field>
-  <mat-form-field class="mb-[-1.25rem]">
-    <mat-label>Password</mat-label>
-    <input matInput />
-  </mat-form-field>
-  <app-button btnType="primary" btnText="Login"></app-button>
-  <span
-    >Don't have an account? <a routerLink="/register">Create one now</a></span
-  >
-</div>
+<app-container minHeight="75vh">
+  <form class="flex w-2/5 flex-col" (ngSubmit)="login()">
+    <mat-toolbar color="accent">Login</mat-toolbar>
+    <mat-form-field class="mb-[-1.25rem]">
+      <mat-label>Email</mat-label>
+      <input
+        matInput
+        name="email"
+        type="email"
+        required
+        [(ngModel)]="model.email"
+      />
+    </mat-form-field>
+    <mat-form-field class="mb-[-1.25rem]">
+      <mat-label>Password</mat-label>
+      <input
+        matInput
+        name="password"
+        type="password"
+        [(ngModel)]="model.password"
+      />
+    </mat-form-field>
+    <app-button
+      btnType="primary"
+      type="submit"
+      required
+      btnText="Login"
+    ></app-button>
+    <br />
+    <span
+      >Don't have an account?
+      <a class="inline text-sec" routerLink="/register">Create one now</a></span
+    >
+    <mat-toolbar *ngIf="loginError != null" color="warn">{{
+      loginError
+    }}</mat-toolbar>
+  </form>
+</app-container>

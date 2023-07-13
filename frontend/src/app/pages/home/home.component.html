@@ -1,5 +1,42 @@
-<p>Home works</p>
+<app-container id="hero" aria-label="hero" direction="col" minHeight="100vh">
+  <div class="rounded-full bg-pri px-4 py-1 text-white">BETA</div>
+  <h1 class="py-3 text-2xl font-extrabold mobile:text-4xl tablet:text-5xl">
+    <span class="gradient-text">Welcome to Your Space</span>
+  </h1>
+  <h2 class="text-lg text-tpri">A social media platform that is truly yours</h2>
 
-<p *ngFor="let user of users">
-  {{ user.userName }}
-</p>
+  <div class="mt-10 flex flex-row items-center justify-center gap-3">
+    <app-button
+      btnType="plain"
+      btnText="See more"
+      (click)="scrollToSection('brief-about')"
+      >See more</app-button
+    >
+    <app-button btnText="Get started" routerLink="/register"></app-button></div
+></app-container>
+
+<app-container
+  id="brief-about"
+  aria-label="brief-about"
+  bgColour="sec"
+  direction="row"
+  [mobileReverse]="true"
+>
+  <div class="w-1/2">
+    <p class="text-tpri">
+      At Your Space, we believe that your personal data should be yours and
+      yours alone. We do not engage in any form of invasive tracking or data
+      collection. Say goodbye to constant ads following you around the internet
+      or having your personal information shared with third parties without your
+      consent. Your Space is built on the principles of transparency and user
+      empowerment.
+    </p>
+  </div>
+  <div class="w-1/2">
+    <img
+      src="assets/images/home/brief-about.webp"
+      class="w-full"
+      alt="Privacy first"
+    />
+  </div>
+</app-container>
